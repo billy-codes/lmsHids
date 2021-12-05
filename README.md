@@ -21,5 +21,7 @@ Fill out the config file with relevant SMTP information to receive alerts by mai
 Step 2: Run the following commands to get the IDS started
 
 ` lmshids.py --clear`
+
 `lmshids.py --update`
+
 `lmshids.py --initialize`
