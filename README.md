@@ -18,10 +18,14 @@ Variables and their definitions:
 
 Fill out the config file with relevant SMTP information to receive alerts by mail
 
-Step 2: Run the following commands to get the IDS started
+Step 2: Run the following commands to get the IDS Calibrated
 
 ` lmshids.py --clear`
 
 `lmshids.py --update`
 
 `lmshids.py --initialize`
+
+Step 3: Run the program 
+
+`lmshids.py --monitor`
